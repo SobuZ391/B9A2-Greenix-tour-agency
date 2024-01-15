@@ -11,15 +11,33 @@
         font-family: Mulish;
 
 }
+
+.container{
+    width: 80% ; 
+    margin: 50px auto;
+    
+}
+#find-now-button{
+    background-color: #fc5704;
+    color: #FFF ;
+    font-size: 1rem;
+    font-weight: 700;
+}
+#find-now-button:hover{
+    background-color: #bcf905;
+    transition: 1s;
+    color: #4a4a67;
+}
+
 /* Header Related styles */
 
 .nav-content {
-    margin-left:135px ;
-    width: 80% ;   
+   
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding-top: 45px;
+    
 }
 
 .logo {
@@ -33,6 +51,7 @@
 font-family: Mulish;
 font-size: 2rem;
 font-weight: 800;
+margin-right: 200px;
 }
 
 .menu-bar {
@@ -58,7 +77,7 @@ font-weight: 800;
     font-family: Mulish;
     font-size: 1.125rem;
     font-weight: 400;
-   
+    gap: 44px;
 
 }
 
@@ -70,6 +89,104 @@ font-weight: 800;
     text-decoration: none;
     color: #424247 ;
 }
+/* explore travel styles */
+.explore{
+    border-radius: 16px;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+     height: 500px;
+    background-repeat: no-repeat;
+    width: 1170px;}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+    .explore-title{
+      margin-top: 100px;
+        color: #FFF;
+        font-family: Mulish;
+        font-weight: 800;
+        font-size: 4rem ;
+        text-align: center;
+    }
+
+.explore-details{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;  
+    width: 676px;
+    margin-top: 24px;
+   
+}
+.form-submit{
+    display: inline-flex;
+padding: 1rem;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+margin-top: 3rem;
+}
+.submit-detail{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+ text-align: center;
+ font-family: mulish;
+ font-weight: 400;
+ border: none;
+
+
+}
+
+
+/* tour place section start */
+.tour-place-content{
+    display: flex;
+    margin-top: 100px;
+    width: 80%;
+    justify-content: space-between;
+    gap: 50px;
+}
+.tour-place-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+
+}
+.tour-place-description{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;; 
+margin-top:24px ;
+margin-bottom: 0px;
+}
+.tour-place-content li {
+    margin-left: 30px;
+}
+.tp-btn{
+    margin-top: 32px;
+}
+/* destination section styles */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media query for responsive design */
 @media screen and (max-width: 600px) {
@@ -110,5 +227,3 @@ font-weight: 800;
         padding: 10px;
     }
 }
-
-/*  */
