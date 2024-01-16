@@ -95,7 +95,7 @@ margin-right: 200px;
 .explore{
     border-radius: 1rem;
     background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
-     height: 450px;
+     height: 460px;
     background-repeat: no-repeat;
     width: 1170px;
     
@@ -557,7 +557,8 @@ background: rgba(19, 19, 24, 0.10);
     margin-top: 0px;
    }
    .explore-details{
-    width: 95%;
+   width: 100%;
+
     display: block;
     
       
@@ -568,9 +569,10 @@ background: rgba(19, 19, 24, 0.10);
    .form-submit{
     flex-direction: column;
     align-items: center;
-    height: 50%;
+    height: 60%;
     width: 90%;
-    margin-top: 10px;
+  margin: 30px auto;
+
     
     
    
@@ -578,6 +580,8 @@ background: rgba(19, 19, 24, 0.10);
    }
     .submit-detail{
     width: 80%;
+    background: #FFF;
+    
     
    }
 }
