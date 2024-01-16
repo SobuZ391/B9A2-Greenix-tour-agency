@@ -35,8 +35,9 @@
    
     
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+
     
 }
 
@@ -45,6 +46,7 @@
    justify-content: center;
    display: flex;
    gap: 5px;
+   cursor: pointer;
 }
 .logo-title{
     color: #131318;
@@ -91,11 +93,11 @@ margin-right: 200px;
 }
 /* explore travel styles */
 .explore{
-    border-radius: 16px;
+    border-radius: 1rem;
     background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
-     height: 500px;
+     height: 450px;
     background-repeat: no-repeat;
-    width: 1170px;}
+    width: 100%;}
 
 .container{
     display: flex;
@@ -127,12 +129,13 @@ margin-right: 200px;
     padding: 1rem;
     align-items: flex-start;
     gap: 24px;
-    border-radius: 8px;
+   border-radius: 20px;
     background: rgba(255, 255, 255, 0.30);
     margin-top: 3rem;
+    width:100% ;
 }
 .submit-detail{
-    width: 174px;
+    width: 80%;
     height: 52px;
     border-radius: 8px;
     background: #FFF;
@@ -338,7 +341,7 @@ margin-right: 200px;
 
 /* Newsletter section styles */
 
-.newletter-content{
+.newsletter-content{
     display: flex;
   
     
@@ -469,6 +472,9 @@ background: rgba(19, 19, 24, 0.10);
     margin-top: 50px;
 }
 
+.hide{
+    display: none;
+}
 
 
 
@@ -482,38 +488,93 @@ background: rgba(19, 19, 24, 0.10);
 @media screen and (max-width: 600px) {
     .nav-content{
         justify-content: space-between;
-    
     }
+        
     .menu-bar{
         display: block;
+
        
     }
     .logo{
         
         font-size: 10px;
-       margin: 0;
-       padding: 0;
+       margin: auto;
+       padding-left: 10px;
+
+       
+
+    }
+    .logo-title{
+       margin: 0px;
+       width:80%;
     }
 
     .nav-list {
         display: none;
         flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
+      margin: auto;
         background-color: #333;
        
     }
 
     #toggle:checked + .navbar .nav-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .nav-list li {
         margin-right: 0;
         text-align: center;
         padding: 10px;
+
     }
+
+     .explore{
+        width: 70%;
+        margin: 5px;
+        min-width: 60%;
+        padding: 20px;
+       margin: auto;
+       
+      
+       
+       
+
+    }
+    
+   .explore-travel-content{
+   
+   margin: 15px;
+    
+   }
+   .explore-title {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    margin-top: 0px;
+   }
+   .explore-details{
+    width: 95%;
+    display: block;
+    
+      
+      
+    
+
+   }
+   .form-submit{
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 90%;
+    margin-top: 10px;
+    
+    
+   
+
+   }
+    .submit-detail{
+    width: 80%;
+    
+   }
 }
