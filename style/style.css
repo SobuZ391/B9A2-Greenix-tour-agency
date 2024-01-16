@@ -403,6 +403,37 @@ height: 422px;
     text-align: center;
     font-family: Mulish;
 }
+/* footer section styles */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 502px;
+    text-align: center;
+}
+.footer-title{
+    padding-left: 20px;
+}
+.ft-d{
+    margin-top: 15px;
+}
+.social-icon{
+    margin-top:32px ;
+    margin-right: 50px;
+}
+hr{
+    margin-top:33px ;
+    width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+}
+
+.copyright-section{
+    margin-top: 50px;
+}
 
 
 
