@@ -182,6 +182,7 @@ margin-right: 200px;
 .tp-btn{
     margin-top: 32px;
 }
+
 /* destination section styles */
 .destination-container{
     display: flex;
@@ -450,42 +451,35 @@ font-weight: 800;
 line-height: normal;
 
 }
-/* footer section styles */
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: rgba(19, 19, 24, 0.05);
-    width: 100%;
-    height: 502px;
+
+ footer{
     text-align: center;
-}
-.footer-title{
-    padding-left: 20px;
-}
-.ft-d{
-    margin-top: 15px;
-}
-.social-icon{
-    margin-top:32px ;
-    margin-right: 50px;
-}
-hr{
-    margin-top:33px ;
-    width: 872px;
-height: 1px;
-background: rgba(19, 19, 24, 0.10);
+    background-color:   rgba(19, 19, 24, 0.05);;
+ }
+ .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
 }
 
-.copyright-section{
+.greenix-logo {
+    margin-bottom: 15px;
     margin-top: 50px;
+    
 }
 
-.hide{
-    display: none;
+.greenix-slogan {
+    display: block;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #666;
 }
 
+.copyright {
+    font-size: 0.8em;
+    color: #999;
+}
 
 
 
@@ -592,7 +586,8 @@ background: rgba(19, 19, 24, 0.10);
     justify-content: center;
    }
    .tour-place-content img{
-    width: 80%;
+    width: 110%;
+   
    }
    
    .destination-container{
@@ -680,10 +675,10 @@ background: rgba(19, 19, 24, 0.10);
         width: 100%;
        }
        .newsletter-img{
-        width: 80%;
+        width: 100%;
        }
        .newsletter-img img {
-        max-width:380px;
+        max-width:110%;
         margin-top: 10px;
         
         
@@ -691,10 +686,13 @@ background: rgba(19, 19, 24, 0.10);
     
 }
 .benefit{
-   width: 80%;
+   width: 65%;
     position: relative;
-    left: 180px;
+    left: 43%;
    opacity: 70%;
     
+}
+.footer-container{
+    max-width: 50%;
 }
 }
